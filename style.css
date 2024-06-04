@@ -193,6 +193,8 @@ padding: 8px 20px;
 
 .new-arrival-3{
     position: relative;
+    height: 300px;
+    width: 250px;
     
 }
 .new-arrival-1 img{
@@ -207,7 +209,7 @@ padding: 8px 20px;
 
 .new-arrival-3 img{
 
-    height: 300px;
+    height: 290px;
     width: 250px;
 }
 
@@ -557,6 +559,8 @@ padding: 8px 8px;
 
 .new-arrival-3{
     position: relative;
+    height: 250px;
+    width: 150px;
     
 }
 .new-arrival-1 img{
