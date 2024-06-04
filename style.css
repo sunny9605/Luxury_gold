@@ -1,0 +1,1000 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    text-align: center;
+}
+
+
+.navBar{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+
+
+
+
+.banner{
+    background-color: rgb(201, 195, 195);
+    height: 300px;
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    background-blend-mode: darken;
+    outline: none;
+}
+
+#bannerImg{
+    height: 260px;
+    width: 400px;
+    
+} 
+.banner h2{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.banner h2:first-letter{
+    color: rgb(180, 153, 0);
+}
+
+.banner span{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 10px;
+    color: white;
+  font-family: "Quicksand", sans-serif;
+
+
+}
+
+.banner i{
+    background-color: rgb(153, 154, 155);
+    padding: 2px;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin: 0px 5px;
+
+
+    
+}
+
+.icons{
+text-align: right;
+}
+
+.header{
+    background-color: black;
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    mix-blend-mode: lighten;
+    outline: none;
+}
+
+.headerImg{
+    height: 250px;
+    width: 500px;
+    background-size: contain;
+}
+
+.header ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.header li{
+list-style: none;
+padding: 8px 20px;
+}
+
+#home{
+    background-color: rgb(216, 208, 208);
+    padding: 10px 20px;
+    opacity: 0.6;
+}
+
+#active:hover{
+    background-color: rgb(216, 208, 208);
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+.newArrivals{
+    line-height: 15x;
+    margin-top: 80px; 
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
+
+.newArrivals h2{
+    font-family: "Quicksand", sans-serif;
+    left: 5px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    
+}
+
+.newArrivals span{
+    font-size: 0.6rem;
+    color: rgb(170, 146, 12);
+}
+
+.newArrivalsImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.new-arrival-1{
+    position: relative;
+    height: 300px;
+    width: 250px;
+
+}
+
+
+.new-arrival-1-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    line-height: 30px;    
+}
+
+.new-arrival-1-text h2{
+    font-weight: 200;
+    font-family: "Lobster", sans-serif;
+    
+}
+
+
+.new-arrival-2{
+    position: relative;
+    height: 300px;
+    width: 250px;
+}
+
+
+.new-arrival-2-text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: rgb(255, 255, 255);
+    line-height: 30px;    
+    
+}
+
+.new-arrival-2-text h2{
+    font-weight: 100;
+    font-size: 10px;
+    padding: 6px 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    border: 1px solid white;
+    
+    
+}
+
+.new-arrival-2-text span{
+
+    font-size: 28px;
+
+}
+
+.new-arrival-3{
+    position: relative;
+    
+}
+.new-arrival-1 img{
+    height: 290px;
+    width: 250px;
+}
+.new-arrival-2 img{
+
+    height: 290px;
+    width: 250px;
+}
+
+.new-arrival-3 img{
+
+    height: 300px;
+    width: 250px;
+}
+
+
+.new-arrival-3-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    
+}
+
+.new-arrival-3-text h2{
+    font-weight: 200;
+    font-family: "Lobster", sans-serif;
+    
+}
+
+.productType{
+    height: 700px;
+    background-color: rgb(223, 221, 221);
+    margin-top: 50px;
+}
+
+
+.productOne{
+    height: 430px;
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.productOne img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+.productTwo{
+    height: 430px;
+    width: 430px;
+    border: 6px solid goldenrod;
+    background-color: white;
+    padding: 20px;
+
+   
+
+}
+
+.productTwo h5{
+    color: goldenrod;
+}
+
+.allProduct{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.links{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.links ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: left;
+}
+
+.links li{
+list-style: none;
+padding: 10px 20px;
+margin: 10px 3px;
+}
+
+#new{
+    background-color: rgb(216, 208, 208);
+    opacity: 0.6;
+}
+
+
+.menFashion{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-evenly
+}
+
+.menFashionText{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px
+
+
+}
+.menFashionText  .men{
+    color: goldenrod;
+}
+
+.menFashionText p{
+    text-align: center;
+}
+
+button{
+    padding: 5px 13px;
+   background-color: transparent;
+   opacity: 0.5;
+   font-size: 12px;
+
+}
+
+.menFashion img{
+    border: 1px solid goldenrod;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.footerOne{
+    height: 300px;
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    overflow: visible !important;
+}
+
+.aboutUs{
+    text-align: center;
+    line-height: 11px;
+    height: 100px;
+}
+
+.aboutUs h2{
+    color: goldenrod;
+    letter-spacing: 8px;
+    font-size: 0.8rem;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+.aboutUs span{
+    color: white;
+    opacity: 0.6;
+    font-size: 10px;
+}
+
+
+
+
+
+
+.footerOne p{
+    color: white;
+    height: 60px;
+    width: 600px;
+    opacity: 0.5;
+    position: absolute;
+    top: 160px;
+    left: 350px;
+
+      
+}
+
+.footerTwo{
+    background-color:black;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.footerTwo a{
+    text-decoration: none;
+}
+
+
+@media screen  and (max-width:1025px) {
+
+       .productOne img{
+    height: 150px;
+    width: 150px;
+}
+
+   
+
+    .footerOne p{
+        position: absolute;
+        top: 160px;
+        left: 250px;
+    
+          
+    }
+    
+    
+}
+
+@media screen and (max-width:770px) {
+
+    .productOne img{
+    height: 150px;
+    width: 150px;
+}
+
+.navBar{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+}
+
+.header{
+    background-color: black;
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    mix-blend-mode: lighten;
+    outline: none;
+}
+
+.headerImg{
+    height: 260px;
+    width: 250px;
+    background-size: contain;
+}
+
+.header ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.header li{
+list-style: none;
+padding: 8px 20px;
+}
+
+.banner{
+    background-color: rgb(201, 195, 195);
+    height: 300px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    mix-blend-mode: color-burn;
+    outline: none;
+}
+
+.banner span{
+    font-size: 7px;
+}
+
+#bannerImg{
+    height: 260px;
+    width: 250px;
+    
+}
+
+.header ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: flex-start !important;
+    font-size: 12px;
+}
+
+.header li{
+list-style: none;
+padding: 8px 8px;
+}
+
+#home{
+    background-color: rgb(216, 208, 208);
+    padding: 10px 8px;
+    opacity: 0.6;
+}
+
+.new-arrival-1{
+    position: relative;
+    height: 250px;
+    width: 150px;
+
+}
+
+
+.new-arrival-1-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    line-height: 25px;  
+    font-size: 14px;  
+}
+
+.new-arrival-1-text h2{
+    font-weight: 200;
+    font-family: "Lobster", sans-serif;
+    font-size: 14px;
+    
+}
+
+
+.new-arrival-2{
+    position: relative;
+    height: 250px;
+    width: 150px;
+}
+
+
+.new-arrival-2-text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: rgb(255, 255, 255);
+    line-height: 30px;    
+    
+}
+
+.new-arrival-2-text h2{
+    font-weight: 100;
+    font-size: 10px;
+    padding: 6px 12px;
+    text-align: center;
+    letter-spacing: 4px;
+    border: 1px solid white;
+    
+    
+}
+
+.new-arrival-2-text span{
+
+    font-size: 20px;
+
+}
+
+.new-arrival-3{
+    position: relative;
+    
+}
+.new-arrival-1 img{
+    height: 250px;
+    width: 150px;
+}
+.new-arrival-2 img{
+
+    height: 250px;
+    width: 150px;
+}
+
+.new-arrival-3 img{
+
+    height: 250px;
+    width: 150px;
+}
+
+
+.new-arrival-3-text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 14px;
+    
+}
+
+.new-arrival-3-text h2{
+    font-weight: 200;
+    font-family: "Lobster", sans-serif;
+    font-size: 14px;
+
+    
+}
+.footerOne p{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+
+      
+}
+
+.menFashionText{
+    height: 200px;
+    width: 180px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 8px;
+
+
+}
+button{
+    padding: 5px 9px;
+   background-color: transparent;
+   opacity: 0.5;
+   font-size: 12px;
+
+}
+
+.menFashion img{
+    border: 1px solid goldenrod;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}
+
+.allProduct{
+    width: 100%;
+}
+
+.productTwo{
+    height: 350px;
+    width: 260px;
+    border:1px solid goldenrod;
+    background-color: white;
+    padding: 20px;
+
+   
+
+}
+
+.productTwo h3{
+    font-size: 9px;
+}
+
+.productTwo span{
+    font-size: 7px;
+}
+
+}
+
+@media screen and (min-width:770px) and (max-width:821px) {
+
+    html{
+        width: 100%;
+    }
+
+    .productOne img{
+ height: 150px;
+ width: 150px;
+}
+
+
+
+ .footerOne p{
+     position: absolute;
+     top: 150px;
+     left: 100px;
+ 
+       
+ }
+
+ .menFashion img{
+    border: 1px solid goldenrod;
+    padding: 1px;
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}
+ 
+ 
+}
+
+
+@media screen and (max-width:431px) {
+
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .productOne img{
+ height: 90px;
+ width: 70px;
+ vertical-align: top;
+}
+.productTwo{
+    height: 350px;
+    width: 280px !important;
+    border:1px solid goldenrod;
+    background-color: white;
+    padding: 20px;
+
+   
+
+}
+
+.productTwo h3{
+    font-size: 9px;
+}
+
+.productTwo span{
+    font-size: 7px;
+}
+
+.new-arrival-1 img{
+    height: 220px !important;
+    width: 130px !important;
+}
+.new-arrival-2 img{
+
+    height: 220px !important;
+    width: 130px !important;
+}
+
+
+.new-arrival-3 img{
+
+    height: 220px !important;
+    width: 130px !important;
+}
+
+.new-arrival-1-text {
+
+    font-size: 10px;
+}
+
+.new-arrival-2-text {
+
+    font-size: 10px;
+}
+
+.new-arrival-3-text {
+
+    font-size: 10px;
+}
+
+
+.navBar{
+    display: grid;
+    grid-template-columns: 200px 190px;
+    justify-content: center;
+}
+
+.banner{
+    background-color: rgb(201, 195, 195);
+    height: 300px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    mix-blend-mode: color-burn;
+    outline: none;
+}
+
+#bannerImg{
+    height: 260px;
+    width: 200px;
+    
+} 
+
+.header{
+    background-color: black;
+    height: 300px;
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    mix-blend-mode: lighten;
+    outline: none;
+}
+
+.headerImg{
+    height: 260px;
+    width: 190px;
+    background-size: contain;
+}
+
+.header ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.header li{
+list-style: none;
+padding: 8px 20px;
+}
+
+.banner{
+    background-color: rgb(201, 195, 195);
+    height: 300px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    mix-blend-mode: color-burn;
+    outline: none;
+}
+
+#bannerImg{
+    height: 260px;
+    width: 200px;
+    
+}
+
+.header ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: flex-start !important;
+    font-size: 9px;
+}
+
+.header li{
+list-style: none;
+padding: 8px 8px;
+}
+
+#home{
+    background-color: rgb(216, 208, 208);
+    padding: 10px 8px;
+    opacity: 0.6;
+}
+
+.menFashion{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-evenly
+}
+
+.menFashionText{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    margin-top: 30px
+
+
+}
+.menFashionText  .men{
+    color: goldenrod;
+}
+
+.menFashionText p{
+    text-align: center;
+}
+
+button{
+    padding: 5px 13px;
+   background-color: transparent;
+   opacity: 0.5;
+   font-size: 8px;
+
+}
+
+.menFashion img{
+    border: 1px solid goldenrod;
+    padding: 1px;
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}
+
+
+.links{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.links ul{
+    color: rgb(168, 144, 7);
+    display: flex;
+    justify-content: left;
+}
+
+.links li{
+list-style: none;
+padding: 10px 10px;
+margin: 10px 3px;
+}
+
+
+.footerOne p{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 12px;
+
+      
+}
+
+}
+
+@media screen and (max-width:650px) {
+    html, body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .new-arrival-1 img{
+        height: 300px;
+        width: 160px;
+    }
+    .new-arrival-2 img{
+    
+        height: 300px;
+        width: 160px;
+    }
+    
+    .new-arrival-3 img{
+    
+        height: 300px;
+        width: 160px;
+    }
+
+
+    .productType{
+        height: 700px;
+        width: 100%;
+        background-color: rgb(223, 221, 221);
+        margin-top: 50px;
+    }
+
+
+    .productTwo{
+        height: 430px;
+        width: 240px;
+        border: 6px solid goldenrod;
+        background-color: white;
+        padding: 20px;
+    
+       
+    
+    }
+
+
+    .footerOne p {
+        position: absolute;
+        top: 130px;
+        font-size: 9px;
+        width: 100%;
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width:321px) {
+    .productOne img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .newArrivals h2{
+
+        font-size: 15px;
+    }
+
+
+    .new-arrival-1 img {
+        height: 200px !important;
+        width: 100px !important;
+    }
+
+    .new-arrival-2 img {
+        height: 200px !important;
+        width: 100px !important;
+    }
+
+    .new-arrival-3 img {
+        height: 200px !important;
+        width: 100px !important;
+    }
+
+    .footerTwo{
+        font-size: 9px;
+    }
+    
+}
+
